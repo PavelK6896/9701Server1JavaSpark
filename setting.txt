@@ -1,0 +1,2 @@
+await (await fetch('/hello', {method: 'POST'})).text()
+await (await fetch('/name?device=note&user[age]=16&user[gender]=male', {method: 'POST', body: JSON.stringify({mood: 'joy'})})).text()
